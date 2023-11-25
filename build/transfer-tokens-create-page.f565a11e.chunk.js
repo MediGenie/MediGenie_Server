@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmedigenie_app=self.webpackChunkmedigenie_app||[]).push([[4816],{39987:(a,t,e)=>{e.r(t),e.d(t,{default:()=>_});var n=e(67294),s=e(84338),E=e(87751),r=e(53219);const _=()=>n.createElement(s.O4,{permissions:E.Z.settings["transfer-tokens"].create},n.createElement(r.Z,null))}}]);

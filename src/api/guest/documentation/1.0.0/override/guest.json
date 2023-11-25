@@ -1,0 +1,155 @@
+{
+  "tags": [
+    {
+      "name": "Guest",
+      "description": "게스트 관련"
+    }
+  ],
+  "paths": {
+    "/guests/new": {
+      "post": {
+        "description": "모바일의 uuid 를 이용하여 guest login 을 합니다. ",
+        "summary": "모바일 UUID로 게스트 로그인을 하며, 이미 존재시, 만들어진 게스트를 반환하고, 없을시, 새로운 게스트 사용자를 생성합니다.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GuestResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "tags": ["Guest"],
+        "parameters": [],
+        "operationId": "post/guests/new",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GuestNewRequest"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "GuestNewRequest": {
+        "properties": {
+          "uuid": {
+            "type": "string"
+          }
+        }
+      },
+      "GuestResponse": {
+        "properties": {
+          "jwt": {
+            "type": "string",
+            "example": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+          },
+          "user": {
+            "$ref": "#/components/schemas/GuestUser"
+          }
+        }
+      },
+      "GuestUser": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "username": { "type": "string", "example": "foo.bar" },
+          "email": {
+            "type": "string",
+            "example": "foo.bar@strapi.io"
+          },
+          "provider": {
+            "type": "string",
+            "example": "local'"
+          },
+          "confirmed": {
+            "type": "boolean",
+            "example": "true"
+          },
+          "blocked": {
+            "type": "boolean",
+            "example": "false"
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time",
+            "example": "2022-06-02T08:32:06.258Z"
+          },
+          "updatedAt": {
+            "type": "string",
+            "format": "date-time",
+            "example": "2022-06-02T08:32:06.267Z"
+          },
+          "uuid": {
+            "type": "string"
+          },
+          "isGuest": {
+            "type": "boolean",
+            "example": "true"
+          },
+          "role": {
+            "$ref": "#/components/schemas/GuestRole"
+          }
+        }
+      },
+      "GuestRole": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "name": { "type": "string", "example": "Guest" },
+          "description": {
+            "type": "string",
+            "example": "foo.bar@strapi.io"
+          },
+          "type": {
+            "type": "string",
+            "example": "guest'"
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time",
+            "example": "2022-06-02T08:32:06.258Z"
+          },
+          "updatedAt": {
+            "type": "string",
+            "format": "date-time",
+            "example": "2022-06-02T08:32:06.267Z"
+          }
+        }
+      }
+    }
+  }
+}

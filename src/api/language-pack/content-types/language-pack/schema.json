@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "language_packs",
+  "info": {
+    "singularName": "language-pack",
+    "pluralName": "language-packs",
+    "displayName": "LanguagePack",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "language": {
+      "type": "enumeration",
+      "enum": [
+        "en_US",
+        "ko_KR",
+        "vi_VN",
+        "DELETE"
+      ]
+    },
+    "fields": {
+      "type": "json"
+    }
+  }
+}

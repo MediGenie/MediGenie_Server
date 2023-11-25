@@ -1,0 +1,75 @@
+{
+  "kind": "collectionType",
+  "collectionName": "diagnosis_results",
+  "info": {
+    "singularName": "diagnosis-result",
+    "pluralName": "diagnosis-results",
+    "displayName": "DiagnosisResult",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "diagnosis_results"
+    },
+    "diagnosis": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::diagnosis.diagnosis",
+      "inversedBy": "diagnosis_results"
+    },
+    "prescriptions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::diagnosis-metadatum.diagnosis-metadatum",
+      "mappedBy": "diagnosis_metadata"
+    },
+    "hearingTestResult": {
+      "type": "json"
+    },
+    "softmaxResult": {
+      "type": "json"
+    },
+    "aiResult": {
+      "type": "text"
+    },
+    "questionResult": {
+      "type": "json"
+    },
+    "images": {
+      "type": "json"
+    },
+    "familyMember": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::family-member.family-member",
+      "inversedBy": "diagnosisResults"
+    },
+    "earPos": {
+      "type": "enumeration",
+      "enum": [
+        "LEFT",
+        "RIGHT"
+      ]
+    },
+    "birthDate": {
+      "type": "date"
+    },
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "MALE",
+        "FEMALE"
+      ]
+    },
+    "prompt": {
+      "type": "text"
+    }
+  }
+}

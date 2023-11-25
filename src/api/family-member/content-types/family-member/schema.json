@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "family_members",
+  "info": {
+    "singularName": "family-member",
+    "pluralName": "family-members",
+    "displayName": "FamilyMember",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "birthDate": {
+      "type": "date"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "CHILD",
+        "SPOUSE",
+        "PARENT",
+        "GRAND_PARENT"
+      ]
+    },
+    "user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "familyMembers"
+    },
+    "diagnosisResults": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::diagnosis-result.diagnosis-result",
+      "mappedBy": "familyMember"
+    },
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "MALE",
+        "FEMALE"
+      ]
+    }
+  }
+}

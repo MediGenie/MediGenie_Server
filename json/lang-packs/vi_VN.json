@@ -1,0 +1,114 @@
+{
+  "ORL_TUMOR": {
+    "serious": "Tùy thuộc vào loại và vị trí của khối u mà mức độ bệnh có thể từ bình thường cho đến nghiêm trọng",
+    "treatment": "Điều trị rất đa dạng có thể bao gồm phẫu thuật, xạ trị, hoặc hóa trị",
+    "description": "Có vật thể phát triển bất thường trong tai",
+    "medications": "Thuốc sẽ phụ thuộc vào loại khối u",
+    "mgExplanation": "Bạn có dị vật phát triển bất thường trong tai, mà chúng tôi gọi là khối u. Tùy thuộc vào loại và vị trí của khối u, khối u này có thể rất nghiêm trọng. Chỉ định điều trị có thể rất khác nhau nhưng có thể bao gồm phẫu thuật, xạ trị hoặc hóa trị. Điều quan trọng cần lưu ý là dù không phải tất cả các khối u đều có thể được phòng ngừa, nhưng một lối sống lành mạnh, bao gồm chế độ ăn uống cân bằng, tập thể dục thường xuyên, tránh thuốc lá và rượu bia, sẽ làm giảm nguy cơ của bệnh lý này."
+  },
+  "ORL_NORMAL": {
+    "serious": "",
+    "treatment": "",
+    "description": "",
+    "medications": "",
+    "mgExplanation": "Kết quả kiểm tra của bạn từ MediGenie là hoàn toàn bình thường! Không cần điều trị, nhưng bạn cần lưu ý là phải thăm khám thường xuyên để duy trì sức khỏe của tai. Để giữ cho tai của bạn khỏe mạnh, hãy tránh tiếp xúc với tiếng ồn lớn, đừng đưa vật dụng bất kì vào tai của bạn, và giữ vệ sinh tai."
+  },
+  "ORL_MYRINGITIS": {
+    "serious": "Có thể gây khó chịu hoặc mất thính giác tạm thời",
+    "treatment": "Quản lý đau và điều trị viêm thường là những bước đầu tiên, kháng sinh có thể được kê nếu nghi ngờ nhiễm khuẩn→Đầu tiên phải giảm đau và điều trị giảm viêm, kháng sinh có thể được kê nếu nghi ngờ có nhiễm khuẩn",
+    "description": "Viêm màng nhĩ→Là sự viêm sưng do nhiều nguyên nhân trên màng nhĩ",
+    "medications": "Thuốc giảm đau (thuốc giảm đau) và thuốc kháng sinh nếu cần thiết→Thuốc giảm đau và thuốc kháng sinh nếu cần thiết",
+    "mgExplanation": "Màng nhĩ của bạn bị viêm nhiễm, hay còn gọi là viêm màng nhĩ. Điều này có thể là do nhiễm vi khuẩn hoặc vi rút hoặc có thể bị tổn thương do vật dụng như tăm bông. Bệnh có thể gây khó chịu hoặc mất thính giác tạm thời. Khuyến nghị điều rị à sử dụng thuốc giảm đau và thuốc kháng sinh để điều trị nhiễm trùng. Để ngăn ngừa điều này trong tương lai, hãy tránh đưa bất cứ thứ gì vào tai và điều trị nhiễm trùng tai kịp thời."
+  },
+  "ORL_ATTIC_RETRACTION": {
+    "serious": "Có thể dẫn đến mất thính giác, hoặc cholesteatoma, một loại u lành tính",
+    "treatment": "Tùy thuộc vào mức độ nghiêm trọng, có thể cần phải can thiệp bằng phẫu thuật→Tùy thuộc vào mức độ, có thể cần phải can thiệp bằng phẫu thuật",
+    "description": "Phần trên của màng nhĩ (gác mái) đã bị co rút hoặc sụp đổ→Phần trên của màng nhĩ đã bị co rút hoặc rách",
+    "medications": "Không có",
+    "mgExplanation": "Phần trên của màng nhĩ của bạn đang bị kéo vào trong, một tình trạng gọi là Xẹp Nhĩ. Nguyên nhân có thể do nhiễm trùng tai mãn tính hoặc rối loạn chức năng ống Eustachian. Việc này có thể dẫn đến biến chứng mất thính lực hoặc khối u lành tính gọi là Cholesteatoma (Khối u biểu bì). Bệnh lý này cần điều trị bằng phẫu thuật. Khám sức khỏe thường xuyên, giữ cho đôi tai của bạn sạch sẽ và điều trị kịp thời các bệnh nhiễm trùng tai sẽ giúp ngăn ngừa tình trạng này."
+  },
+  "ORL_HEALED_PERFORATION": {
+    "serious": "Thường không nghiêm trọng nếu được chữa khỏi đúng cách→Nếu vết thương lành tốt thường sẽ không có gì nghiêm trọng",
+    "treatment": "Không cần điều trị, vì tình trạng đã được giải quyết→Không cần điều trị, vì vết thương đã lành",
+    "description": "Màng nhĩ, sau khi bị thủng, đã hồi phục→Màng nhĩ đã từng bị thủng và đã hồi phục",
+    "medications": "Không có",
+    "mgExplanation": "Dựa trên kết quả kiểm tra của MediGenie, có khả năng màn nhĩ của bạn đã từng bị thủng và đã hồi phục. Nguyên nhân có thể là do tiếng ồn lớn, áp suất trong tai thay đổi đột ngột hoặc do nhiễm trùng. Hiện tại, vết sẹo cho đang lành tốt và không còn đáng lo. Do đó, chúng tôi không khuyến nghị điều trị bất kì, tuy nhiên bạn cần lưu ý về việc bảo vệ tai của bạn khỏi tiếng ồn lớn và thay đổi áp suất đột ngột để ngăn ngừa thủng màng nhĩ trong tương lai. Lưu ý thêm bạn hãy liên hệ đến các cơ sở y tế nếu có những vấn đề khác về tai của mình. "
+  },
+  "ORL_MIXED_HEARING_LOSS": {
+    "serious": "Nghiêm trọng, vì ảnh hưởng đến thính giác",
+    "treatment": "Điều trị có thể bao gồm máy trợ thính, cấy ghép cochlear, hoặc phẫu thuật",
+    "description": "Sự kết hợp của tổn thương thính lực dẫn và thính lực thần kinh→Sự kết hợp của tổn thương thính lực giác quan và thính lực thần kinh",
+    "medications": "Không có",
+    "mgExplanation": "Bạn bị mất thính giác kết hợp giữa dẫn truyền và giác quan. Điều này có thể là do nhiều vấn đề kết hợp, bao gồm các vấn đề về cách tai bạn truyền sóng âm thanh, tổn thương dây thần kinh mang tín hiệu âm thanh đến não của bạn hoặc thậm chí do tiếp xúc với tiếng ồn lớn. Tình trạng này nghiêm trọng vì nó ảnh hưởng đến khả năng nghe của bạn. Khuyến cáo điều trị của chúng tôi là sử dụng máy trợ thính, cấy ghép ốc tai điện tử hoặc phẫu thuật. Bảo vệ tai của bạn khỏi tiếng ồn lớn và đi khám ngay lập tức nếu bạn nghi ngờ bị nhiễm trùng tai để ngăn ngừa những vấn đề tương tự trong tương lai."
+  },
+  "ORL_OTITIS_MEDIA_WITH_EFFUSION": {
+    "serious": "Có thể gây khó chịu và ảnh hưởng đến thính giác",
+    "treatment": "Đặt ống tympanostomy để thoát dịch, có thể kháng sinh nếu nghi ngờ nhiễm khuẩn→Đặt ống dẫn lưu tai giữa để thoát dịch, có thể kháng sinh nếu nghi ngờ nhiễm khuẩn",
+    "description": "Dịch trong tai giữa gây ra các triệu chứng",
+    "medications": "Kháng sinh nếu vi khuẩn→Kháng sinh nếu nghi ngờ nhiễm khuẩn",
+    "mgExplanation": "Bạn có dịch tích tụ trong tai giữa, điều này có thể gây khó chịu và ảnh hưởng đến thính giác của bạn. Tình trạng viêm tai giữa tràn dịch này có thể do cảm lạnh hoặc dị ứng gây ra. Chúng tôi có thể cần dẫn lưu dịch bằng cách đặt một ống nhỏ vào tai bạn và kê đơn thuốc kháng sinh. Các biện pháp phòng ngừa bao gồm rửa tay thường xuyên, cập nhật thông tin về tiêm chủng và phòng ngừa dị ứng."
+  },
+  "ORL_TYMPANIC_MEMBRANE_PERFORATION": {
+    "serious": "Có thể dẫn đến mất thính giác hoặc nhiễm trùng",
+    "treatment": "Phẫu thuật (myringoplasty hoặc tympanoplasty) có thể cần thiết cho những lỗ thủng lớn hơn→Phẫu thuật (thủ thuật vá màng nhĩ) có thể cần thiết cho những lỗ thủng lớn hơn",
+    "description": "Có một vết rách hoặc xé nằm trong màng nhĩ→Có một vết rách trên màng nhĩ",
+    "medications": "Thuốc kháng sinh có thể được kê toa để ngăn ngừa hoặc điều trị nhiễm trùng",
+    "mgExplanation": "Theo kết quả hình ảnh, màn nhĩ của bạn có lỗ thủng nhỏ, nguyên nhân có thể do nhiễm trùng, chấn thương hoặc tiếp xúc với tiếng ồn lớn. Việc này có thể dẫn đến mất thính giác và nhiễm trùng cơ hội. Tùy thuộc vào kích thước của lỗ thủng, chúng ta có thể xem xét thực hiện phẫu thuật để vá lại và kê thuốc kháng sinh để ngăn ngừa nhiễm trùng. Để ngăn ngừa điều này tiếp tục xảy ra, hãy tránh đưa bất cứ vật dụng bất kì vào tai và bảo vệ tai khi tiếp xúc với tiếng ồn lớn."
+  },
+  "ORL_ATTIC_RETRACTION_OR_ATELECTASIS": {
+    "serious": "Có thể dẫn đến mất thính giác hoặc cholesteatoma→Có thể dẫn đến mất thính giác hoặc u lành tính cholesteatoma",
+    "treatment": "Có thể cần can thiệp bằng phẫu thuật",
+    "description": "Co rút hoặc sụp đổ của màng nhĩ hoặc tai giữa→Co rút hoặc xẹp của màng nhĩ hoặc tai giữa",
+    "medications": "Không có",
+    "mgExplanation": "Màng nhĩ hoặc tai giữa của bạn có dấu hiệu co rút hoặc xẹp xuống. Nguyên nhân có thể là do áp suất âm dai dẳng trong khoang tai giữa, bởi rối loạn chức năng ống Eustachian. Nếu không được điều trị, bệnh này có thể dẫn đến mất thính lực hoặc khối u lành tính gọi là Cholesteatoma(U biểu bì lạc chổ). Tùy theo các yếu tố khác, có thể cần phải phẫu thuật. Giữ vệ sinh tai và điều trị nhiễm trùng tai kịp thời sẽ giúp ngăn ngừa tình trạng này."
+  },
+  "ORL_MYRINGITIS_AND_MIXED_HEARING_LOSS": {
+    "serious": "Có thể gây ra sự khó chịu đáng kể và ảnh hưởng nghiêm trọng đến thính giác→Có thể gây ra sự khó chịu lớn và ảnh hưởng nghiêm trọng đến thính giác",
+    "treatment": "Quản lý đau, có thể kháng sinh, và máy trợ thính có thể cần thiết→Quản lý đau, có thể có kháng sinh, và máy trợ thính có thể cần thiết",
+    "description": "Viêm màng nhĩ cùng với tổn thương thính lực dẫn và thính lực thần kinh→Viêm màng nhĩ cùng với tổn thương thính lực giác quan và thính lực thần kinh",
+    "medications": "Thuốc giảm đau và kháng sinh nếu cần thiết",
+    "mgExplanation": "Ngoài viêm màng nhĩ, bạn còn bị mất thính lực hỗn hợp. Điều này có thể do nhiễm trùng hoặc chấn thương hoặc tiếp xúc với tiếng ồn lớn. Tình trạng này khá đáng ngại do chúng ảnh hưởng đến thính giác của bạn. Khuyến nghị điều trị là thuốc giảm đau, kê đơn thuốc kháng sinh nếu cần và cân nhắc sử dụng máy trợ thính. Tránh nhét vật dụng bất kì vào tai và bảo vệ tai khỏi tiếng ồn lớn để ngăn ngừa vấn đề tương tự trong tương lai."
+  },
+  "ORL_MYRINGITIS_AND_CONDUCTIVE_HEARING_LOSS": {
+    "serious": "Có thể gây khó chịu và mất thính giác",
+    "treatment": "Quản lý đau, có thể kháng sinh, và máy trợ thính có thể được khuyến nghị cho tình trạng mất thính giác→Quản lý đau, có thể có kháng sinh, và máy trợ thính có thể cần thiết",
+    "description": "Viêm màng nhĩ kèm theo tổn thương thính lực dẫn→Viêm màng nhĩ kèm theo tổn thương khiến cho tai không thể nhận được âm thanh gây mất thính giác",
+    "medications": "Thuốc giảm đau và kháng sinh nếu cần thiết",
+    "mgExplanation": "Bạn bị viêm màng nhĩ cùng với mất thính giác dẫn truyền. Nguyên nhân có thể là nhiễm trùng hoặc tắc nghẽn trong tai. Đây là vấn đề đáng lo ngại vì nó ảnh hưởng đến thính giác của bạn. đề nghị điều trị lúc này là kê đơn thuốc giảm đau và thuốc kháng sinh. Có thể cần sử dụng máy trợ thính. Giữ vệ sinh tai và bảo vệ tai khỏi tiếng ồn lớn sẽ giúp ngăn ngừa các vấn đề này."
+  },
+  "ORL_OTITIS_MEDIA_WITH_EFFUSION_BUT_HEALTHY": {
+    "serious": "Có thể gây mất thính giác nếu không điều trị",
+    "treatment": "Quan sát, có thể đặt ống tympanostomy nếu lượng dịch tích tụ còn tồn tại→Quan sát, có thể đặt ống dẫn lưu tai giữa nếu còn dịch tích tụ bên trong",
+    "description": "Tích tụ dịch trong tai giữa nhưng không có triệu chứng",
+    "medications": "Không có",
+    "mgExplanation": "Bạn có chất lỏng trong tai giữa, tình trạng này gọi là viêm tai giữa tràn dịch. Nguyên nhân thường là do cảm lạnh hoặc nhiễm trùng xoang gần đây. Mặc dù hiện tại bạn không có triệu chứng nhưng nó có thể gây mất thính lực nếu không được điều trị. Chúng tôi cần theo dõi chặt chẽ và nếu bệnh không tự khỏi, có thể cần đặt một ống nhỏ vào tai bạn để dẫn lưu chất lỏng. Để ngăn chặn điều này, phòng ngừa cảm lạnh và nhiễm trùng xoang bằng cách rửa tay thường xuyên và tránh tiếp xúc với những người bị bệnh."
+  },
+  "ORL_TYMPANIC_MEMBRANE_PERFORATION_AND_MIXED_HEARING_LOSS": {
+    "serious": "Rất nghiêm trọng, vì ảnh hưởng đến khả năng nghe",
+    "treatment": "Phẫu thuật để sửa lỗi thủng, và máy trợ thính có thể được khuyến nghị cho tình trạng mất thính giác",
+    "description": "Sự kết hợp của tổn thương thính lực dẫn và thính lực thần kinh→Sự kết hợp của tổn thương thính lực giác quan và thính lực thần kinh",
+    "medications": "Thuốc kháng sinh và có thể là steroid để giảm viêm",
+    "mgExplanation": "Bạn bị rách màng nhĩ và mất thính giác hỗn hợp, đó là sự kết hợp giữa mất thính giác dẫn truyền và giác quan. Nguyên nhân có thể do nhiều yếu tố bao gồm nhiễm trùng tai, tiếp xúc với tiếng ồn hoặc thậm chí là  di truyền. Vấn đề này tương đối nghiêm trọng vì nó ảnh hưởng trực tiếp đến thính giác của bạn. Chúng tôi đề nghị phẫu thuật và sử dụng máy trợ thính. Hãy nhớ bảo vệ tai khỏi tiếng ồn lớn và đi khám ngay lập tức nếu nghi ngờ nhiễm trùng tai để ngăn ngừa những vấn đề này trong tương lai."
+  },
+  "ORL_CONDUCTIVE_HEARING_LOSS_OR_SENSORINEURAL_HEARING_LOSS": {
+    "serious": "Nghiêm trọng, vì ảnh hưởng đến thính giác",
+    "treatment": "Điều trị có thể bao gồm máy trợ thính, cấy ghép ốc tai, hoặc phẫu thuật tùy thuộc vào nguyên nhân",
+    "description": "Không thể nghe do sự tổn thương khiến tai không thể nhận được âm thanh hoặc tổn thương thần kinh khiến không thể dẫn âm thanh về não bộ",
+    "medications": "Không có",
+    "mgExplanation": "Bạn đang bị suy giảm thính lực, có thể do các vấn đề về cách tai truyền sóng âm thanh hoặc tổn thương dây thần kinh truyền tín hiệu âm thanh đến não. Điều này có thể ảnh hưởng đáng kể đến cuộc sống hàng ngày của bạn. Tùy thuộc vào nguyên nhân, việc điều trị có thể liên quan đến máy trợ thính , cấy ghép ốc tai điện tử hoặc phẫu thuật. Để ngăn ngừa mất thính giác, hãy tránh tiếp xúc với tiếng ồn lớn và đi khám ngay lập tức nếu bạn bị nhiễm trùng tai."
+  },
+  "ORL_OTITIS_MEDIA_WITH_EFFUSION_AND_MIXED_ORL_HEARING_LOSS": {
+    "serious": "Nghiêm trọng, vì có thể gây ra sự khó chịu và mất thính giác nghiêm trọng",
+    "treatment": "Đặt ống tympanostomy, có thể kháng sinh, và máy trợ thính có thể cần thiết→Đặt ống dẫn lưu tai giữa, có thể kháng sinh, và máy trợ thính có thể cần thiết",
+    "description": "Dịch trong tai giữa cùng với tổn thương thính lực dẫn và thính lực thần kinh",
+    "medications": "Kháng sinh nếu vi khuẩn→Kháng sinh nếu nghi ngờ nhiễm khuẩn",
+    "mgExplanation": "Có chất lỏng trong tai giữa của bạn kèm theo tình trạng mất thính giác hỗn hợp. Nguyên nhân có thể là do nhiễm trùng, dị ứng hoặc tiếp xúc với tiếng ồn. Tình trạng này rất nguy hiểm vì nó có thể gây khó chịu và ảnh hưởng nghiêm trọng đến thính giác của bạn. Có thể cần phải dẫn lưu chất lỏng và dùng kháng sinh, cùng với máy trợ thính. Rửa tay thường xuyên, chủng ngừa, quản lý dị ứng và bảo vệ tai của bạn khỏi tiếng ồn lớn có thể giúp ngăn ngừa những vấn đề này tiếp tục xảy ra."
+  },
+  "ORL_ATTIC_RETRACTION_OR_ATELECTASIS_AND_MIXED_HEARING_LOSS": {
+    "serious": "Rất nghiêm trọng do ảnh hưởng đến thính giác",
+    "treatment": "Phẫu thuật để khắc phục vấn đề, cùng với việc sử dụng máy trợ thính có thể cần thiết→Phẫu thuật để khắc phục vấn đề, có thể được chỉ định sử dụng máy trợ thính",
+    "description": "Sụp đổ màng nhĩ hoặc tai giữa cùng với tổn thương thính lực dẫn và thính lực thần kinh",
+    "medications": "Không có",
+    "mgExplanation": "Màng nhĩ của bạn co lại đi kèm với tình trạng mất thính giác hỗn hợp. Điều này có thể là do nhiễm trùng tai mãn tính hoặc rối loạn chức năng ống Eustachian và đây là bệnh lý khá nghiêm trọng. Khuyến nghị điều trị có thể là tiến hành phẫu thuật và khuyên cáo sử dụng máy trợ thính cho tình trạng mất thính lực. Để ngăn chặn điều này, giữ vệ sinh tai, điều trị nhiễm trùng tai kịp thời và bảo vệ tai của bạn khỏi tiếng ồn lớn."
+  }
+}

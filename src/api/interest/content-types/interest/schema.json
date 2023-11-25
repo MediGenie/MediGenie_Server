@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "interests",
+  "info": {
+    "singularName": "interest",
+    "pluralName": "interests",
+    "displayName": "Interest",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "interests"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "HEALTH_STATE",
+        "HEALTH_MANAGEMENT",
+        "HEALTH_CHECKUP_RECORDS",
+        "HEALTH_INFO_RECOMMENDATIONS"
+      ],
+      "required": true
+    }
+  }
+}

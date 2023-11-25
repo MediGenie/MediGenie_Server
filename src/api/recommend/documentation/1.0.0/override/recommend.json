@@ -1,0 +1,58 @@
+{
+  "tags": [
+    {
+      "name": "Home",
+      "description": "홈 메인 리소스"
+    }
+  ],
+  "paths": {
+    "/home": {
+      "get": {
+        "description": "앱의 홈/diagnosis 에 필요한 리소스를 가져옵니다",
+        "summary": "",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HomeResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "tags": ["Home"],
+        "parameters": [],
+        "operationId": "post/guests/new"
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "HomeResponse": {
+        "properties": {}
+      }
+    }
+  }
+}

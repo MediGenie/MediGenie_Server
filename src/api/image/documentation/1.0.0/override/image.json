@@ -1,0 +1,80 @@
+{
+  "tags": [
+    {
+      "name": "Image",
+      "description": "이미지 관련"
+    }
+  ],
+  "paths": {
+    "/images/upload": {
+      "post": {
+        "description": "이미지를 AWS S3 로 업로드합니다.",
+        "summary": "API 요청시, multipart/form-data 로 보내야합니다.",
+        "secrutiy": ["bearerAuth"],
+        "requestBody": {
+          "description": "업로드",
+          "required": true,
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "required": ["files"],
+                "type": "object",
+                "properties": {
+                  "files": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "binary"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HomeResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "tags": ["Image"],
+        "parameters": [],
+        "operationId": "post/images/upload"
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "HomeResponse": {
+        "properties": {}
+      }
+    }
+  }
+}

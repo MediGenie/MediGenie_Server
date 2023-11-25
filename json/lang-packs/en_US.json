@@ -1,0 +1,111 @@
+{
+  "ORL_HEALED_PERFORATION": {
+    "description": "The eardrum, once perforated, has healed",
+    "mgExplanation": "Based on MediGenie's examination, it appears your eardrum had a perforation that's healed up. This could have been due to a loud noise, sudden change in ear pressure, or an ear infection. Now that it's healed, it's not typically a cause for concern. We don't need to provide any treatment right now, but it's important to protect your ears from loud noises and drastic pressure changes to prevent future perforations. Remember, always seek medical advice if you have any ear-related concerns in the future.",
+    "serious": "Usually not serious if healed correctly",
+    "treatment": "No treatment needed, as the condition is resolved",
+    "medications": "None"
+  },
+  "ORL_TYMPANIC_MEMBRANE_PERFORATION": {
+    "description": "A rupture or tear is present in the eardrum",
+    "mgExplanation": "Your eardrum has a small hole, likely caused by an infection, injury, or exposure to loud noise. This can sometimes lead to hearing loss or infections. Depending on the size of the hole, we might consider a surgical procedure to repair it and antibiotics to prevent infections. To prevent this in the future, try to avoid inserting anything in your ear, and protect your ears when you're exposed to loud noises.",
+    "serious": "Can lead to hearing loss or infections",
+    "treatment": "Surgery (myringoplasty or tympanoplasty) may be necessary for larger perforations",
+    "medications": "Antibiotics may be prescribed to prevent or treat infections"
+  },
+  "ORL_TYMPANIC_MEMBRANE_PERFORATION_AND_MIXED_HEARING_LOSS": {
+    "description": "Eardrum tear coupled with a combination of conductive and sensorineural hearing loss",
+    "mgExplanation": "You have a tear in your eardrum and you're experiencing a mixed hearing loss, which is a combination of conductive and sensorineural loss. This could have resulted from a combination of factors including ear infections, noise exposure, or even genetic factors. It's quite serious as it affects your hearing. Surgery and hearing aids might be recommended. Remember to protect your ears from loud noise and seek immediate medical help if you suspect an ear infection to prevent such issues in the future.",
+    "serious": "Quite serious, as it affects hearing ability",
+    "treatment": "Surgery to repair the perforation, and hearing aids may be recommended for the hearing loss",
+    "medications": "Antibiotics and possibly steroids to reduce inflammation"
+  },
+  "ORL_ATTIC_RETRACTION": {
+    "description": "The superior section of the eardrum (attic) is retracted or collapsed",
+    "mgExplanation": "The upper part of your eardrum is getting pulled inward, a condition called Attic Retraction. This can be due to chronic ear infections or eustachian tube dysfunction. In severe cases, it can lead to hearing loss or a benign growth called a cholesteatoma. We might need to perform a surgical procedure to correct it. Regular check-ups, keeping your ears clean, and prompt treatment of ear infections can help prevent this condition.",
+    "serious": "Could lead to hearing loss, or a cholesteatoma, a kind of benign tumor",
+    "treatment": "Depending on severity, surgical intervention could be necessary",
+    "medications": "None"
+  },
+  "ORL_ATTIC_RETRACTION_OR_ATELECTASIS": {
+    "description": "",
+    "mgExplanation": "",
+    "serious": "Can lead to hearing loss or cholesteatoma",
+    "treatment": "Surgical intervention may be necessary",
+    "medications": "None"
+  },
+  "ORL_ATTIC_RETRACTION_OR_ATELECTASIS_AND_MIXED_HEARING_LOSS": {
+    "description": "Retraction or collapse of the eardrum or middle ear",
+    "mgExplanation": "Your eardrum or middle ear is showing signs of retraction or collapse. This can be due to persistent negative pressure in your middle ear due to Eustachian tube dysfunction. If left untreated, it can lead to hearing loss or a benign growth called cholesteatoma. In some cases, surgery may be necessary. Maintaining good ear hygiene and treating ear infections promptly can help prevent this condition.",
+    "serious": "Quite serious due to its impact on hearing",
+    "treatment": "Surgery to correct the issue, along with the potential use of hearing aids",
+    "medications": "None"
+  },
+  "ORL_MYRINGITIS": {
+    "description": "",
+    "mgExplanation": "",
+    "serious": "May cause discomfort or temporary hearing loss",
+    "treatment": "Managing the pain and treating the inflammation are usually the first steps, antibiotics may be prescribed if bacterial infection is suspected",
+    "medications": "Pain relievers (analgesics) and antibiotics if necessary"
+  },
+  "ORL_MYRINGITIS_AND_CONDUCTIVE_HEARING_LOSS": {
+    "description": "Inflamed eardrum accompanied by conductive hearing loss",
+    "mgExplanation": "You have inflammation of your eardrum along with conductive hearing loss. This could be due to an infection or a blockage in your ear. It's a concern since it affects your hearing. We'll help manage the pain and may prescribe antibiotics. Hearing aids may be recommended. Maintaining good ear hygiene and protecting your ears from loud noises can help prevent such issues.",
+    "serious": "Can cause discomfort and loss of hearing",
+    "treatment": "Pain management, potentially antibiotics, and hearing aids may be recommended for the hearing loss",
+    "medications": "Pain relievers and antibiotics if necessary"
+  },
+  "ORL_MYRINGITIS_AND_MIXED_HEARING_LOSS": {
+    "description": "Eardrum inflammation along with both conductive and sensorineural hearing loss",
+    "mgExplanation": "In addition to the inflamed eardrum, you also have mixed hearing loss. This could have resulted from an infection or injury and noise exposure. It's serious as it affects your hearing. We'll help manage the pain, prescribe antibiotics if needed, and consider hearing aids. Avoid inserting anything in your ear, and protect your ears from loud noises to prevent future issues.",
+    "serious": "Can cause significant discomfort and severely affect hearing",
+    "treatment": "Pain management, potential antibiotics, and hearing aids may be necessary",
+    "medications": "Pain relievers and antibiotics if necessary"
+  },
+  "ORL_OTITIS_MEDIA_WITH_EFFUSION_BUT_HEALTHY": {
+    "description": "Fluid accumulation in the middle ear without symptoms",
+    "mgExplanation": "You have fluid in your middle ear, a condition called otitis media with effusion. This is often due to a recent cold or sinus infection. Even though you're not currently experiencing symptoms, it can cause hearing loss if untreated. We'll monitor it closely, and if it doesn't resolve on its own, we might need to place a tiny tube in your ear to drain the fluid. To prevent this, try to avoid colds and sinus infections by washing your hands regularly and avoiding close contact with sick individuals.",
+    "serious": "Can cause hearing loss if untreated",
+    "treatment": "Observation, potentially placement of tympanostomy tubes if the fluid accumulation persists",
+    "medications": "None"
+  },
+  "ORL_OTITIS_MEDIA_WITH_EFFUSION": {
+    "description": "Fluid in the middle ear causing symptoms",
+    "mgExplanation": "You have fluid accumulation in your middle ear which is likely causing discomfort and affecting your hearing. This condition, otitis media with effusion, can be caused by colds or allergies. We might need to drain the fluid by placing a tiny tube in your ear, and antibiotics may be prescribed. Preventive measures include frequent hand washing, keeping up-to-date with immunizations, and managing allergies.",
+    "serious": "Can cause discomfort and affect hearing",
+    "treatment": "Placement of tympanostomy tubes to drain fluid, possibly antibiotics if bacterial infection is suspected",
+    "medications": "Antibiotics if bacterial"
+  },
+  "ORL_OTITIS_MEDIA_WITH_EFFUSION_AND_MIXED_ORL_HEARING_LOSS": {
+    "description": "Fluid in the middle ear along with both conductive and sensorineural hearing loss",
+    "mgExplanation": "There's fluid in your middle ear along with mixed hearing loss. This could be due to an infection, allergies, or noise exposure. It's serious as it can cause discomfort and severely affect your hearing. Drainage of the fluid and antibiotics may be necessary, along with hearing aids. Frequent hand washing, immunizations, allergy management, and protecting your ears from loud noises can help prevent such issues.",
+    "serious": "Serious, as it can cause discomfort and severe hearing loss",
+    "treatment": "Placement of tympanostomy tubes, possibly antibiotics, and hearing aids may be necessary",
+    "medications": "Antibiotics if bacterial"
+  },
+  "ORL_TUMOR": {
+    "description": "An abnormal growth in the ear",
+    "mgExplanation": "You have an abnormal growth in your ear, which we call a tumor. Depending on its type and location, it can be very serious. Treatment can vary widely but may involve surgery, radiation therapy, or chemotherapy. It's important to remember that not all tumors are preventable, but a healthy lifestyle, including a balanced diet, regular exercise, and avoidance of tobacco and excessive alcohol, can reduce your risk.",
+    "serious": "Depending on the type and location of the tumor, it can be very serious",
+    "treatment": "Treatment can vary widely but may involve surgery, radiation therapy, or chemotherapy",
+    "medications": "Medication will depend on the type of tumor"
+  },
+  "ORL_NORMAL": {
+    "description": "",
+    "mgExplanation": "MediGenie's examination came back normal, which is great news! There's no treatment needed, but it's essential to continue with regular check-ups to maintain your ear health. To keep your ears healthy, avoid exposure to loud noises, don't insert anything into your ears, and maintain good hygiene."
+  },
+  "ORL_CONDUCTIVE_HEARING_LOSS_OR_SENSORINEURAL_HEARING_LOSS": {
+    "description": "Hearing loss due to problems in the ear's ability to conduct sound waves or damage to the auditory nerve",
+    "mgExplanation": "You're experiencing hearing loss, either due to problems in how your ear conducts sound waves or damage to the nerve that carries sound signals to your brain. This can impact your daily life significantly. Depending on the cause, treatment could involve hearing aids, cochlear implants, or surgery. To prevent hearing loss, avoid exposure to loud noises, and seek immediate medical help if you have an ear infection.",
+    "serious": "Serious, as it affects hearing",
+    "treatment": "Treatment may involve hearing aids, cochlear implants, or surgery depending on the cause",
+    "medications": "None"
+  },
+  "ORL_MIXED_HEARING_LOSS": {
+    "description": "A combination of conductive and sensorineural hearing loss",
+    "mgExplanation": "You have a combination of conductive and sensorineural hearing loss. This is likely due to a mix of issues, including problems in how your ear conducts sound waves, damage to the nerve that carries sound signals to your brain, or even exposure to loud noise. It's serious as it impacts your hearing ability. We may recommend hearing aids, cochlear implants, or surgery. Protect your ears from loud noise and seek prompt medical help if you suspect an ear infection to prevent such issues in the future.",
+    "serious": "Serious, as it affects hearing",
+    "treatment": "Treatment may involve hearing aids, cochlear implants, or surgery",
+    "medications": "None"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "tags": [
+    {
+      "name": "Diagnosis",
+      "description": "문진표 처리 관련"
+    }
+  ],
+  "paths": {
+    "/diagnosis": {
+      "post": {
+        "description": "",
+        "summary": "사용자의 문진표 결과와 이미지를 받아 inference 요청처리합니다.",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DiagnosisResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "tags": ["Diagnosis"],
+        "parameters": [],
+        "operationId": "post/diagnosis",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DiagnosisRequest"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/me/diagnosis": {
+      "get": {
+        "description": "",
+        "summary": "[아직 작업 안됨]사용자의 문진 결과를 가져옵니다.",
+        "secrutiy": ["bearerAuth"],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DiagnosisResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        },
+        "tags": ["Diagnosis"],
+        "parameters": [],
+        "operationId": "get/me/diagnosis"
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "DiagnosisRequest": {
+        "properties": {
+          "answers": {
+            "type": "string",
+            "example": "{ stringify 된 json 데이터 }"
+          },
+          "images": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "example": "https://medigenie-images.s3.ap-northeast-2.amazonaws.com/21_testtesttest_testtesttest%40guest.com/IMG_7483_534670065c.png"
+            }
+          }
+        }
+      },
+      "DiagnosisResponse": {
+        "properties": {
+          "success": {
+            "type": "boolean"
+          },
+          "msg": {
+            "type": "string"
+          },
+          "result": {
+            "$ref": "#/components/schemas/InferenceModel"
+          }
+        }
+      },
+      "InferenceModel": {
+        "type": "object",
+        "properties": {
+          "Ar": {
+            "type": "number",
+            "example": "-0.2858289102"
+          },
+          "Myri": {
+            "type": "number",
+            "example": "2.04081802802"
+          },
+          "Normal": {
+            "type": "number",
+            "example": "0.028585298291"
+          },
+          "Ome": {
+            "type": "number",
+            "example": "-0.858208182899"
+          },
+          "Tp": {
+            "type": "number",
+            "example": "0.17281872991"
+          },
+          "Tumor": {
+            "type": "number",
+            "example": "-0.387854872828"
+          }
+        }
+      }
+    }
+  }
+}

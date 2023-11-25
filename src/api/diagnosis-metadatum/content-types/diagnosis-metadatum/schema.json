@@ -1,0 +1,76 @@
+{
+  "kind": "collectionType",
+  "collectionName": "diagnosis_metadata",
+  "info": {
+    "singularName": "diagnosis-metadatum",
+    "pluralName": "diagnosis-metadata",
+    "displayName": "DiagnosisMetadata",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "severityLevel": {
+      "type": "enumeration",
+      "enum": [
+        "CAUTION",
+        "SERIOUS",
+        "HEALTHY"
+      ]
+    },
+    "medications": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::medication.medication",
+      "inversedBy": "diagnosis_metadata"
+    },
+    "code": {
+      "type": "enumeration",
+      "enum": [
+        "ORL_HEALED_PERFORATION",
+        "ORL_TYMPANIC_MEMBRANE_PERFORATION",
+        "ORL_TYMPANIC_MEMBRANE_PERFORATION_AND_MIXED_HEARING_LOSS",
+        "ORL_ATTIC_RETRACTION",
+        "ORL_ATTIC_RETRACTION_OR_ATELECTASIS",
+        "ORL_ATTIC_RETRACTION_OR_ATELECTASIS_AND_MIXED_HEARING_LOSS",
+        "ORL_MYRINGITIS",
+        "ORL_MYRINGITIS_AND_CONDUCTIVE_HEARING_LOSS",
+        "ORL_MYRINGITIS_AND_MIXED_HEARING_LOSS",
+        "ORL_OTITIS_MEDIA_WITH_EFFUSION_BUT_HEALTHY",
+        "ORL_OTITIS_MEDIA_WITH_EFFUSION",
+        "ORL_OTITIS_MEDIA_WITH_EFFUSION_AND_MIXED_ORL_HEARING_LOSS",
+        "ORL_TUMOR",
+        "ORL_NORMAL",
+        "ORL_CONDUCTIVE_HEARING_LOSS_OR_SENSORINEURAL_HEARING_LOSS",
+        "ORL_MIXED_HEARING_LOSS"
+      ]
+    },
+    "prescriptions": {
+      "type": "json"
+    },
+    "mgExplanation": {
+      "type": "text"
+    },
+    "department": {
+      "type": "enumeration",
+      "enum": [
+        "OTOLARYNGOLOGY",
+        "DERMATOLOGY"
+      ]
+    },
+    "diagnosis_metadata": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::diagnosis-result.diagnosis-result",
+      "inversedBy": "prescriptions"
+    }
+  }
+}
