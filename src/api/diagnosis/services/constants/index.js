@@ -39,7 +39,7 @@ const DEFAULT_TEMPERATURE = "1";
 const OPENAI_API_TYPE = "openai";
 const OPENAI_API_VERSION = "2023-03-15-preview";
 const OPENAI_ORGANIZATION = "";
-const OPENAI_API_KEY = "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";
+const OPENAI_API_KEY = "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";
 
 module.exports = {
   CATEGORIES: categories,
