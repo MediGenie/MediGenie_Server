@@ -36,7 +36,7 @@ module.exports = ({ env }) => {
     documentation: {
       enabled: true,
       config: {
-        openapi: "3.0.0",
+        openapi: "4.0.0",
         info: {
           version: "1.0.0",
           title: "Medigenie API 문서",
@@ -59,7 +59,7 @@ module.exports = ({ env }) => {
         },
         servers: [
           {
-            url: "https://api.aiplaza.kr/api",
+            url: "https://api.medigenie.ai/api",
             description: "Development server",
           },
           {

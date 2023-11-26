@@ -68,7 +68,7 @@ async function fetchStreamedChat(options, onChunkReceived) {
     : [{ role: "user", content: messageInput }];
   // Prepare the request body
   const _model =
-    model === "gpt-4" ||
+    model === "gpt-4-1106-preview" ||
     model === "gpt-3.5-turbo-16k-0613" ||
     model === "gpt-4-0613" ||
     model === "gpt-4-32k	" ||

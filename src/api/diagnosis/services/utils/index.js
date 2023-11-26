@@ -36,7 +36,7 @@ async function requestInference(payload) {
   console.log("payload :>> ", payload);
   const res = await axios({
     method: "POST",
-    url: "http://103.22.220.93:8000/inference/",
+    url: "http://103.22.220.92:8000/inference/",
     data: payload,
   });
   console.log("res", res);

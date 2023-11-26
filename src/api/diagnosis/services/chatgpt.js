@@ -46,7 +46,7 @@ module.exports = ({ strapi }) => ({
     logger.info(`acceptedLanguage :>> ${acceptedLanguage}`);
 
     try {
-      const { model = "gpt-3.5-turbo-16k-0613" } = body;
+      const { model = "gpt-4-1106-preview" } = body;
       const stream = new PassThrough();
       ctx.response.status = 200;
       ctx.response.body = stream;

@@ -73,7 +73,7 @@ module.exports = (plugin) => {
         .getResultByUser(
           user,
           {
-            limit: 5,
+            limit: 15,
             orderBy: {
               createdAt: "DESC",
             },
